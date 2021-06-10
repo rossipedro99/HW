@@ -1,0 +1,32 @@
+<app-header></app-header>
+<div id="container">
+    <div id="corpo">
+        <div id="login">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Senha">
+            <div id="button">
+                <button class="btn btn-primary"><mat-icon svgIcon="google"></mat-icon></button>
+                <button class="btn btn-primary"><mat-icon svgIcon="facebook"></mat-icon></button>
+                <button class="btn btn-primary">LOGIN</button>
+            </div>
+        </div>
+        <div id="cadastro">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Senha">
+            <input type="text" placeholder="Confirme sua senha">
+            <input type="text" placeholder="Nome de Usuário">
+            <div id="termos">
+                <input type="checkbox"
+                (click)="termosAceito()">
+                <label>Aceito os Termos de Uso e de Privacidade</label>
+            </div>
+            <div id="button">
+                <button class="btn btn-primary"><mat-icon svgIcon="google"></mat-icon></button>
+                <button class="btn btn-primary"><mat-icon svgIcon="facebook"></mat-icon></button>
+            <div id="button">
+                <button class="btn btn-primary"
+                [class.termosAceito]="!termosDeUso">CADASTRAR</button>
+            </div>
+        </div>
+    </div>
+</div>

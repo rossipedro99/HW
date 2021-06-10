@@ -1,0 +1,37 @@
+<div id="container">
+    <input type="text" placeholder="Buscar produto">
+    <button id="search">
+        <mat-icon svgIcon="search">
+
+        </mat-icon>
+    </button>
+    <div id="menu">
+        <ul>
+            <li (mouseover)="onMouseOverOutProcessador()"
+            (mouseout)="onMouseOverOutProcessador()"
+            [class.itemFocus]="isMouseOverProcessador">
+                Processadores
+            </li>
+            <li (mouseover)="onMouseOverOutPlacaVideo()"
+            (mouseout)="onMouseOverOutPlacaVideo()"
+            [class.itemFocus]="isMouseOverPlacaVideo">
+                Placa de Video
+            </li>
+            <li (mouseover)="onMouseOverOutMonitor()"
+            (mouseout)="onMouseOverOutMonitor()"
+            [class.itemFocus]="isMouseOverMonitor">
+                Monitor
+            </li>
+            <li (mouseover)="onMouseOverOutFonte()"
+            (mouseout)="onMouseOverOutFonte()"
+            [class.itemFocus]="isMouseOverFonte">
+                Fonte
+            </li>
+            <li (mouseover)="onMouseOverOutMais()"
+            (mouseout)="onMouseOverOutMais()"
+            [class.itemFocus]="isMouseOverMais">
+                Mais Categorias
+            </li>
+        </ul>
+    </div>
+</div>

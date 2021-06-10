@@ -1,0 +1,62 @@
+#container{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    display: block;
+    height: 80.8%;
+    width: 100%;
+}
+#item
+{
+    border: solid 1px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+}
+#ofertas{
+    width:100%;
+    margin-top: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#produtos{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+#item{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    align-items: center;
+}
+table{
+    width:100%;
+    padding-left: 10px;
+    background-color: white;
+    text-align: center;
+}
+table{
+    border-bottom: solid 1px;
+}
+th{
+    border-top: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+td{
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+#sugestao{
+    text-align: left;
+    margin: 15px;
+    font-size: 25px;
+}
+img{
+    width: 150px;
+}
+.itemFocus{
+    color: cornflowerblue;
+}

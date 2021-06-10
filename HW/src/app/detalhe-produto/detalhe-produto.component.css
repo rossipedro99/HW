@@ -1,0 +1,82 @@
+#container{
+    border-top: solid 1px;
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: solid 1px;
+}
+#categorias{
+    width: 15%;
+}
+#detalhesproduto{
+    width:85%;
+    display: flex;
+    flex-flow: row wrap;
+}
+#produto{
+    margin-top: 5%;
+    border: solid 1px;
+    padding: 0.5%;
+    margin-left: 15%;
+    margin-right: 5%;
+    width: 17%;
+    text-align: center;
+    border-radius: 20px;
+}
+#detalhe{
+    padding-top: 5%;
+    width: 60%;
+    padding-right: 5%;
+}
+#preco{
+    margin-top: 2%;
+    font-size: 30px;
+}
+#descricao{
+    font-size: 20px;
+}
+#ficha{
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 10%;
+    width:100%;
+    border: solid 1px;
+    border-radius: 20px;
+}
+#ficha ul li{
+    margin-top: 15px;
+    display: grid;
+}
+#ficha p{
+    font-weight: bold;
+}
+#avaliacao
+{
+    padding-top: 3%;
+    padding-left: 10%;
+    width:100%;
+    padding-bottom: 3%;
+}
+#comentario
+{
+    width: 40%;
+    margin-right: 1%;
+}
+#comentarios{
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-top: 1%;
+    width:75%;
+    border: solid 1px;
+    border-radius: 20px;
+}
+#comentarios label{
+    margin-bottom: 1%;
+    width: 100%;
+}
+#user
+{
+    font-weight: bold;
+}
+img{
+    width: 250px;
+}

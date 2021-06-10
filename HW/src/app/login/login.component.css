@@ -1,0 +1,47 @@
+input{
+    margin: 5px;
+    
+}
+button{
+    margin: 5px;
+    background-color: cornflowerblue;
+}
+#container
+{
+    height: 90%;
+}
+#corpo
+{
+    border-top: solid 2px;
+    padding: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#login{
+    display: grid;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+    border-right: solid 1px;
+}
+#button
+{
+    display: inline;
+}
+#button input{
+    background-color: cornflowerblue;
+}
+#cadastro{
+    display: grid;
+    padding-left: 40px;
+}
+#termos
+{
+    display: inline;
+    padding: 10px;
+}
+.termosAceito{
+    pointer-events: none;
+    background-color: silver;
+}

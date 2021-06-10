@@ -1,0 +1,24 @@
+ul li{
+    display: inline;
+    margin: 6px;
+    text-align: center;
+}
+section{
+    padding-top: 10px;
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    background-color: #1E90FF;
+}
+#rodape{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+#copyright{
+    text-align: center;
+}
+#logo{
+    font-size: 40px;
+    font-family: 'lucida handwriting';
+}
