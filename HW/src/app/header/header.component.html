@@ -1,44 +1,20 @@
-<div id="container">
-    <ul>
-        <li id="logo">
-            HW
-        </li>
-        <li id="item">
-            <strong 
-                (mouseover)="onMouseOverOutSobre()"
-                (mouseout)="onMouseOverOutSobre()"
-                [class.menuFocus]="isMouseOverSobre"
-                >
-                <mat-icon svgIcon="info"></mat-icon>
-                SOBRE
-            </strong>
-        </li>
-        <li id="item">
-            <strong 
-                (mouseover)="onMouseOverOutContato()"
-                (mouseout)="onMouseOverOutContato()"
-                [class.menuFocus]="isMouseOverContato">
-                <mat-icon svgIcon="chat"></mat-icon>
-                CONTATO
-            </strong>
-        </li>
-        <li id="item">
-            <strong 
-            (mouseover)="onMouseOverOutCarrinho()"
-            (mouseout)="onMouseOverOutCarrinho()"
-            [class.menuFocus]="isMouseOverCarrinho">
-            <mat-icon svgIcon="cart"></mat-icon>
-            CARRINHO
-        </strong>
-        </li>
-        <li id="login">
-            <strong 
-            (mouseover)="onMouseOverOutLoginCadastro()"
-            (mouseout)="onMouseOverOutLoginCadastro()"
-            [class.loginFocus]="isMouseOverLoginCadastro">
-            <mat-icon svgIcon="login"></mat-icon>
-            LOGIN/CADASTRO
-        </strong>
-        </li>
-    </ul>
-</div>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="w3-main" style="margin-left:250px">
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:250px">
+    
+      <!-- Push down content on small screens -->
+      <div class="w3-hide-large" style="margin-top:83px"></div>
+      
+      <!-- Top header -->
+      <header class="w3-container w3-xlarge">
+        <p class="w3-right">
+          <i class="fa fa-shopping-cart w3-margin-right"></i>
+          <i class="fa fa-search"></i>
+        </p>
+      </header>

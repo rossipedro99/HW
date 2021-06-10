@@ -1,21 +1,42 @@
-<div id="container">
-    <div id="categorias">
-        <ul>
-            <li>
-                Monitor
-            </li>
-            <li>
-                Processador
-            </li>
-            <li>
-                Placa de video
-            </li>
-            <li>
-                Fonte
-            </li>
-            <li>
-                Notebook
-            </li>
-        </ul>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .w3-sidebar a {font-family: "Roboto", sans-serif}
+    body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+    </style>
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+    <div class="w3-container w3-display-container w3-padding-16">
+      <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+      <h3 class="w3-wide"><b>HW</b></h3>
     </div>
+    <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+      <a href="#" class="w3-bar-item w3-button">Monitor</a>
+      <a href="#" class="w3-bar-item w3-button">Processador</a>
+      <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+        <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Skinny</a>
+        <a href="#" class="w3-bar-item w3-button">Placa de video</a>
+        <a href="#" class="w3-bar-item w3-button">Fonte</a>
+        <a href="#" class="w3-bar-item w3-button">Disco Rigido</a>
+      </div>
+      <a href="#" class="w3-bar-item w3-button">Notebook</a>
+      <a href="#" class="w3-bar-item w3-button">Desktop</a>
+      <a href="#" class="w3-bar-item w3-button">Roteadores</a>
+    </div>
+<div class="justify-content-center col-12 row d-flex">
+  <div class="col-2">
+    <mat-icon svgIcon="facebook"></mat-icon>
+  </div>
+  <div class="col-2">
+    <mat-icon svgIcon="twitter"></mat-icon>
+  </div>
+  <div class="col-2">
+    <mat-icon svgIcon="instagram"></mat-icon>
+  </div>
 </div>
+  </nav>
+  <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+    <div class="w3-bar-item w3-padding-24 w3-wide">LOGO</div>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+  </header>
