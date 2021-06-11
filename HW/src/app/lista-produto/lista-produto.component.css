@@ -1,11 +1,14 @@
 #container{
     color: #05529c !important;
+    height: 100%;
+    margin-bottom: 5%;
 }
 #top{
+    margin-top: 5%;
     padding-top: 2%;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: #05529c;
 }
 #item{
     border: solid 1px;
