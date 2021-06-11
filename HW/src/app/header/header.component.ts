@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,42 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  //@ViewChild("teste") produtos: ElementRef;
+  pesquisar:any;
 
-  isMouseOverHome: boolean = false;
-  isMouseOverSobre: boolean = false;
-  isMouseOverProduto: boolean = false;
-  isMouseOverContato: boolean = false;
-  isMouseOverLoginCadastro: boolean = false;
-  isMouseOver:boolean = false;
-  isMouseOverCarrinho:boolean = false;
   constructor() { }
-
-  onMouseOverOutHome()
-  {
-    this.isMouseOverHome = !this.isMouseOverHome;
-  }
-  onMouseOverOutSobre()
-  {
-    this.isMouseOverSobre = !this.isMouseOverSobre;
-  }
-  onMouseOverOutProduto()
-  {
-    this.isMouseOverProduto = !this.isMouseOverProduto;
-  }
-  onMouseOverOutContato()
-  {
-    this.isMouseOverContato = !this.isMouseOverContato;
-  }
-  onMouseOverOutLoginCadastro()
-  {
-    this.isMouseOverLoginCadastro = !this.isMouseOverLoginCadastro;
-  }
-  onMouseOverOutCarrinho()
-  {
-    this.isMouseOverCarrinho = !this.isMouseOverCarrinho;
-  }
 
   ngOnInit(): void {
   }
-
+  public validarPesquisa()
+  {
+    this.pesquisar = true;
+  }
 }

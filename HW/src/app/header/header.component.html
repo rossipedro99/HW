@@ -1,20 +1,41 @@
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="w3-main" style="margin-left:250px">
-    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-    <!-- !PAGE CONTENT! -->
-    <div class="w3-main" style="margin-left:250px">
-    
-      <!-- Push down content on small screens -->
-      <div class="w3-hide-large" style="margin-top:83px"></div>
-      
-      <!-- Top header -->
-      <header class="w3-container w3-xlarge">
-        <p class="w3-right">
-          <i class="fa fa-shopping-cart w3-margin-right"></i>
-          <i class="fa fa-search"></i>
-        </p>
-      </header>
+<header class="section-header">
+  <section class="header-main border-bottom">
+      <div class="container-fluid">
+          <div class="row align-items-center">
+              <div class="col-lg-3 col-sm-4 col-md-4 col-5"> <a href="#" class="brand-wrap" data-abc="true">
+                      <!-- <img class="logo" src="http://ampexamples.com/data/upload/2017/08/bootstrap2_logo.png"> --> <span class="logo">HW</span> </a> </div>
+              <div class="col-lg-4 col-xl-5 col-sm-8 col-md-4 d-none d-md-block">
+                  <form action="#" class="search-wrap">
+                      <div class="input-group w-100"> <input type="text" class="form-control search-form" style="width:55%;" placeholder="Buscar Produto...">
+                          <div class="input-group-append"> <button class="btn btn-primary search-button" type="submit"> <i class="fa fa-search"></i> </button> </div>
+                      </div>
+                  </form>
+              </div>
+              <div class="col-lg-5 col-xl-4 col-sm-8 col-md-4 col-7">
+                  <div class="d-flex justify-content-end"> <a target="_blank" href="#" data-abc="true" class="nav-link widget-header"> <mat-icon svgIcon="chat" style="color: white;"></mat-icon></a> <span class="vl"></span>
+                      <div class="dropdown btn-group"> <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-abc="true"><mat-icon svgIcon="cart" style="color: white;"></mat-icon></a>
+                      </div> <span class="vl"></span> <a class="nav-link nav-user-img" href="#" data-toggle="modal" data-target="#login-modal" data-abc="true"><span class="login"><mat-icon svgIcon="login"></mat-icon></span></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <nav class="navbar navbar-expand-md navbar-main border-bottom">
+      <div class="container-fluid">
+          <form class="d-md-none my-2">
+              <div class="input-group"> 
+                  <input type="search" name="search" class="form-control" placeholder="Search" required="">
+                  <div class="input-group-append"> <button type="submit" class="btn btn-secondary"> <i class="fa fa-search"></i> </button> </div>
+              </div>
+          </form> <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#dropdown6" aria-expanded="false"> <span class="navbar-toggler-icon"></span> </button>
+          <div class="navbar-collapse collapse" id="dropdown6">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"> <a class="nav-link" href="" data-abc="true">Monitor</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="" data-abc="true">Processador</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="" data-abc="true">Placa de Video</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="" data-abc="true">Fonte</a> </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>

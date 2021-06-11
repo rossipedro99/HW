@@ -1,37 +1,29 @@
 #container{
-    border-top: solid 1px;
-    display: flex;
-    flex-flow: row wrap;
-    border-bottom: solid 1px;
+    color: #05529c !important;
 }
-#categorias{
-    width: 15%;
+#top{
+    padding-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
 }
-#produtos ul{
-    margin-top: 50px;
+#item{
+    border: solid 1px;
+    width: 350px;
+    height: 320px;
+    background-color: white;
+    margin-top: 5%;
+    font-family: 'Swis721';
+    font-size: 15px;
+    color: #05529c !important;
 }
-#produtos ul li{
-    display: inline;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-align: center;
-    font-size: 25px;
-}
-#filtro{
-    margin:20px;
-    margin-right: 5%;
-    text-align: right;
-}
-th{
-    border-top: solid 1px;
-    border-left: solid 1px;
-    border-right: solid 1px;
-}
-td{
-    border-bottom: solid 1px;
-    border-left: solid 1px;
-    border-right: solid 1px;
+#item b{
+    font-family: 'Swis721';
+    font-size: 18px;
+    color: #05529c;
+    font-weight: 700;
 }
 img{
     width: 250px;
+    height: 270px;
 }

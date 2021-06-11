@@ -1,47 +1,14 @@
-input{
-    margin: 5px;
-    
+.placeicon {
+    font-family: fontawesome
 }
-button{
-    margin: 5px;
-    background-color: cornflowerblue;
+
+.custom-control-label::before {
+    background-color: #dee2e6;
+    border: #dee2e6
 }
 #container
 {
-    height: 90%;
-}
-#corpo
-{
-    border-top: solid 2px;
-    padding: 100px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-#login{
-    display: grid;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-right: 40px;
-    border-right: solid 1px;
-}
-#button
-{
-    display: inline;
-}
-#button input{
-    background-color: cornflowerblue;
-}
-#cadastro{
-    display: grid;
-    padding-left: 40px;
-}
-#termos
-{
-    display: inline;
-    padding: 10px;
-}
-.termosAceito{
-    pointer-events: none;
-    background-color: silver;
+    background-color: #e2e2e4;
+    margin-top: 5.5%;
+    height: 100%;
 }

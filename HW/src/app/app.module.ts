@@ -15,6 +15,8 @@ import { ListaProdutoComponent } from './lista-produto/lista-produto.component';
 import { DetalheProdutoComponent } from './detalhe-produto/detalhe-produto.component';
 import { CadastroProdutoComponent } from './cadastro-produto/cadastro-produto.component';
 import { CategoriasComponent } from './categorias/categorias.component';
+import { FormsModule } from '@angular/forms';
+import { RegistrarComponent } from './registrar/registrar.component';
 
 @NgModule({
   declarations: [
@@ -27,14 +29,16 @@ import { CategoriasComponent } from './categorias/categorias.component';
     ListaProdutoComponent,
     DetalheProdutoComponent,
     CadastroProdutoComponent,
-    CategoriasComponent
+    CategoriasComponent,
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
