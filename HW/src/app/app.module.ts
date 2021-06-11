@@ -17,6 +17,7 @@ import { CadastroProdutoComponent } from './cadastro-produto/cadastro-produto.co
 import { CategoriasComponent } from './categorias/categorias.component';
 import { FormsModule } from '@angular/forms';
 import { RegistrarComponent } from './registrar/registrar.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RegistrarComponent } from './registrar/registrar.component';
     DetalheProdutoComponent,
     CadastroProdutoComponent,
     CategoriasComponent,
-    RegistrarComponent
+    RegistrarComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,

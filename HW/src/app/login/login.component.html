@@ -1,10 +1,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
 <div id="container">
-    <!-- Container containing all contents -->
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                <!-- White Container -->
                 <div class="container bg-white rounded mt-2 mb-2 px-0">
                     <!-- Main Heading -->
                     <div class="row justify-content-center align-items-center pt-3">
@@ -30,7 +28,7 @@
                                 </div>
                             </div> <!-- Log in Button -->
                             <div class="form-group row justify-content-center">
-                                <div class="col-3 px-3"> <input type="submit" value="Entrar" class="btn btn-block btn-info"> </div>
+                                <div class="col-3 px-3"> <a routerLink="/produtos" routerLinkActive="active"> <input type="submit" value="Entrar" class="btn btn-block btn-info"></a> </div>
                             </div>
                         </form>
                     </div> <!-- Alternative Login -->
@@ -57,11 +55,8 @@
                             <hr>
                         </div> <!-- Register Now -->
                         <div class="pt-2">
-                            <div class="row justify-content-center">
-                                <h5>Não tem conta?<span><a href="#" class="text-danger"> Registre-se.</a></span></h5>
-                            </div>
-                            <div class="row justify-content-center align-items-center pt-4 pb-5">
-                                <div class="col-4"> <a href="#" class="btn btn-block btn-info"> Registrar </a> </div>
+                            <div class="row justify-content-center pb-3">
+                                <h5>Não tem conta?<span><a routerLink="/" routerLinkActive="active" class="text-danger"> Registre-se.</a></span></h5>
                             </div>
                         </div>
                     </div>
